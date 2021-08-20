@@ -1,0 +1,16 @@
+{
+  "name": "circleci-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress-open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC"
+}
