@@ -11,7 +11,7 @@ describe('Verify the website', function() {
 
   it('verify the status of the site', function() {
     cy.request('/about').should(function(response) {
-      expect(response.status).to.eq(200);
+      expect(response.status).to.eq(201);
     });
   });
 
